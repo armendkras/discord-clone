@@ -1,0 +1,17 @@
+.SideDrawer{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    transition: transform 0.3s ease-out;
+    transform: translateX(0);
+}
+.SidebarD {
+   flex: 0.45;
+}
+
+@media(min-width: 500px){
+   .SideDrawer{
+       display: none;
+   }
+}
+
